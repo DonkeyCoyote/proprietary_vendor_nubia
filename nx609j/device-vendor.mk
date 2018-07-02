@@ -100,7 +100,9 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx609j/proprietary/lib/lib-imsvt.so:system/lib/lib-imsvt.so \
     vendor/nubia/nx609j/proprietary/lib/lib-imsvtextutils.so:system/lib/lib-imsvtextutils.so \
     vendor/nubia/nx609j/proprietary/lib/lib-imsvtutils.so:system/lib/lib-imsvtutils.so \
+    vendor/nubia/nx609j/proprietary/lib/libFileMux.so:system/lib/libFileMux.so \
     vendor/nubia/nx609j/proprietary/lib/libNubiaImageAlgorithm.so:system/lib/libNubiaImageAlgorithm.so \
+    vendor/nubia/nx609j/proprietary/lib/libOmxMux.so:system/lib/libOmxMux.so \
     vendor/nubia/nx609j/proprietary/lib/libantradio.so:system/lib/libantradio.so \
     vendor/nubia/nx609j/proprietary/lib/libarcsoft_beautyshot.so:system/lib/libarcsoft_beautyshot.so \
     vendor/nubia/nx609j/proprietary/lib/libarcsoft_beautyshot_image_algorithm.so:system/lib/libarcsoft_beautyshot_image_algorithm.so \
@@ -110,6 +112,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx609j/proprietary/lib/libarcsoft_night_shot.so:system/lib/libarcsoft_night_shot.so \
     vendor/nubia/nx609j/proprietary/lib/libarcsoft_picauto.so:system/lib/libarcsoft_picauto.so \
     vendor/nubia/nx609j/proprietary/lib/libdiag_system.so:system/lib/libdiag_system.so \
+    vendor/nubia/nx609j/proprietary/lib/libdisplayconfig.so:system/lib/libdisplayconfig.so \
     vendor/nubia/nx609j/proprietary/lib/libimscamera_jni.so:system/lib/libimscamera_jni.so \
     vendor/nubia/nx609j/proprietary/lib/libimsmedia_jni.so:system/lib/libimsmedia_jni.so \
     vendor/nubia/nx609j/proprietary/lib/liblocationservice_jni.so:system/lib/liblocationservice_jni.so \
@@ -117,6 +120,11 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx609j/proprietary/lib/libmmcamera_faceproc.so:system/lib/libmmcamera_faceproc.so \
     vendor/nubia/nx609j/proprietary/lib/libmmcamera_faceproc2.so:system/lib/libmmcamera_faceproc2.so \
     vendor/nubia/nx609j/proprietary/lib/libmmcamera_nubiacustpro.so:system/lib/libmmcamera_nubiacustpro.so \
+    vendor/nubia/nx609j/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
+    vendor/nubia/nx609j/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
+    vendor/nubia/nx609j/proprietary/lib/libmmparser_lite.so:system/lib/libmmparser_lite.so \
+    vendor/nubia/nx609j/proprietary/lib/libmmrtpdecoder.so:system/lib/libmmrtpdecoder.so \
+    vendor/nubia/nx609j/proprietary/lib/libmmrtpencoder.so:system/lib/libmmrtpencoder.so \
     vendor/nubia/nx609j/proprietary/lib/libnubia_effect.so:system/lib/libnubia_effect.so \
     vendor/nubia/nx609j/proprietary/lib/libqdMetaData.system.so:system/lib/libqdMetaData.system.so \
     vendor/nubia/nx609j/proprietary/lib/libqti-at.so:system/lib/libqti-at.so \
@@ -185,7 +193,9 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx609j/proprietary/lib64/lib-imsvt.so:system/lib64/lib-imsvt.so \
     vendor/nubia/nx609j/proprietary/lib64/lib-imsvtextutils.so:system/lib64/lib-imsvtextutils.so \
     vendor/nubia/nx609j/proprietary/lib64/lib-imsvtutils.so:system/lib64/lib-imsvtutils.so \
+    vendor/nubia/nx609j/proprietary/lib64/libFileMux.so:system/lib64/libFileMux.so \
     vendor/nubia/nx609j/proprietary/lib64/libNubiaImageAlgorithm.so:system/lib64/libNubiaImageAlgorithm.so \
+    vendor/nubia/nx609j/proprietary/lib64/libOmxMux.so:system/lib64/libOmxMux.so \
     vendor/nubia/nx609j/proprietary/lib64/libantradio.so:system/lib64/libantradio.so \
     vendor/nubia/nx609j/proprietary/lib64/libarcsoft_beautyshot.so:system/lib64/libarcsoft_beautyshot.so \
     vendor/nubia/nx609j/proprietary/lib64/libarcsoft_beautyshot_image_algorithm.so:system/lib64/libarcsoft_beautyshot_image_algorithm.so \
@@ -193,12 +203,18 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx609j/proprietary/lib64/libarcsoft_low_light_shot.so:system/lib64/libarcsoft_low_light_shot.so \
     vendor/nubia/nx609j/proprietary/lib64/libarcsoft_night_shot.so:system/lib64/libarcsoft_night_shot.so \
     vendor/nubia/nx609j/proprietary/lib64/libdiag_system.so:system/lib64/libdiag_system.so \
+    vendor/nubia/nx609j/proprietary/lib64/libdisplayconfig.so:system/lib64/libdisplayconfig.so \
     vendor/nubia/nx609j/proprietary/lib64/libimscamera_jni.so:system/lib64/libimscamera_jni.so \
     vendor/nubia/nx609j/proprietary/lib64/libimsmedia_jni.so:system/lib64/libimsmedia_jni.so \
     vendor/nubia/nx609j/proprietary/lib64/liblocationservice_jni.so:system/lib64/liblocationservice_jni.so \
     vendor/nubia/nx609j/proprietary/lib64/libmiracast.so:system/lib64/libmiracast.so \
     vendor/nubia/nx609j/proprietary/lib64/libmmcamera_faceproc.so:system/lib64/libmmcamera_faceproc.so \
     vendor/nubia/nx609j/proprietary/lib64/libmmcamera_faceproc2.so:system/lib64/libmmcamera_faceproc2.so \
+    vendor/nubia/nx609j/proprietary/lib64/libmmosal.so:system/lib64/libmmosal.so \
+    vendor/nubia/nx609j/proprietary/lib64/libmmparser.so:system/lib64/libmmparser.so \
+    vendor/nubia/nx609j/proprietary/lib64/libmmparser_lite.so:system/lib64/libmmparser_lite.so \
+    vendor/nubia/nx609j/proprietary/lib64/libmmrtpdecoder.so:system/lib64/libmmrtpdecoder.so \
+    vendor/nubia/nx609j/proprietary/lib64/libmmrtpencoder.so:system/lib64/libmmrtpencoder.so \
     vendor/nubia/nx609j/proprietary/lib64/libnubia_clone.so:system/lib64/libnubia_clone.so \
     vendor/nubia/nx609j/proprietary/lib64/libnubia_delay_recorder.so:system/lib64/libnubia_delay_recorder.so \
     vendor/nubia/nx609j/proprietary/lib64/libnubia_effect.so:system/lib64/libnubia_effect.so \
