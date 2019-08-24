@@ -1,4 +1,4 @@
-# Copyright (C) 2018 The LineageOS Project
+# Copyright (C) 2018-2019 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -69,13 +69,10 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx609j/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
     vendor/nubia/nx609j/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/etc/permissions/com.qti.snapdragon.sdk.display.xml \
     vendor/nubia/nx609j/proprietary/etc/permissions/com.qualcomm.qti.imscmservice.xml:system/etc/permissions/com.qualcomm.qti.imscmservice.xml \
-    vendor/nubia/nx609j/proprietary/etc/permissions/com.qualcomm.qti.imscmservice_1_1.xml:system/etc/permissions/com.qualcomm.qti.imscmservice_1_1.xml \
     vendor/nubia/nx609j/proprietary/etc/permissions/privapp-permissions-qti.xml:system/etc/permissions/privapp-permissions-qti.xml \
-    vendor/nubia/nx609j/proprietary/etc/permissions/qti-vzw-ims-internal.xml:system/etc/permissions/qti-vzw-ims-internal.xml \
     vendor/nubia/nx609j/proprietary/etc/permissions/qti_libpermissions.xml:system/etc/permissions/qti_libpermissions.xml \
     vendor/nubia/nx609j/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/nubia/nx609j/proprietary/etc/permissions/qti_telephony_common.xml:system/etc/permissions/qti_telephony_common.xml \
-    vendor/nubia/nx609j/proprietary/etc/permissions/vendor-qti-hardware-alarm.xml:system/etc/permissions/vendor-qti-hardware-alarm.xml \
     vendor/nubia/nx609j/proprietary/etc/sysconfig/qti_whitelist.xml:system/etc/sysconfig/qti_whitelist.xml \
     vendor/nubia/nx609j/proprietary/etc/wfdconfig.xml:system/etc/wfdconfig.xml \
     vendor/nubia/nx609j/proprietary/etc/wfdconfig1280_720.xml:system/etc/wfdconfig1280_720.xml \
@@ -92,9 +89,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx609j/proprietary/lib/com.qualcomm.qti.bluetooth_audio@1.0.so:system/lib/com.qualcomm.qti.bluetooth_audio@1.0.so \
     vendor/nubia/nx609j/proprietary/lib/com.qualcomm.qti.dpm.api@1.0.so:system/lib/com.qualcomm.qti.dpm.api@1.0.so \
     vendor/nubia/nx609j/proprietary/lib/com.qualcomm.qti.imscmservice@1.0.so:system/lib/com.qualcomm.qti.imscmservice@1.0.so \
-    vendor/nubia/nx609j/proprietary/lib/com.qualcomm.qti.imscmservice@1.1.so:system/lib/com.qualcomm.qti.imscmservice@1.1.so \
     vendor/nubia/nx609j/proprietary/lib/com.qualcomm.qti.wifidisplayhal@1.0.so:system/lib/com.qualcomm.qti.wifidisplayhal@1.0.so \
-    vendor/nubia/nx609j/proprietary/lib/hw/sensors.msm8998.so:system/lib/hw/sensors.msm8998.so \
     vendor/nubia/nx609j/proprietary/lib/lib-imscamera.so:system/lib/lib-imscamera.so \
     vendor/nubia/nx609j/proprietary/lib/lib-imsvideocodec.so:system/lib/lib-imsvideocodec.so \
     vendor/nubia/nx609j/proprietary/lib/lib-imsvt.so:system/lib/lib-imsvt.so \
@@ -107,21 +102,18 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx609j/proprietary/lib/libarcsoft_beautyshot.so:system/lib/libarcsoft_beautyshot.so \
     vendor/nubia/nx609j/proprietary/lib/libarcsoft_beautyshot_image_algorithm.so:system/lib/libarcsoft_beautyshot_image_algorithm.so \
     vendor/nubia/nx609j/proprietary/lib/libarcsoft_beautyshot_video_algorithm.so:system/lib/libarcsoft_beautyshot_video_algorithm.so \
-    vendor/nubia/nx609j/proprietary/lib/libarcsoft_high_dynamic_range.so:system/lib/libarcsoft_high_dynamic_range.so \
     vendor/nubia/nx609j/proprietary/lib/libarcsoft_low_light_shot.so:system/lib/libarcsoft_low_light_shot.so \
     vendor/nubia/nx609j/proprietary/lib/libarcsoft_night_shot.so:system/lib/libarcsoft_night_shot.so \
-    vendor/nubia/nx609j/proprietary/lib/libarcsoft_picauto.so:system/lib/libarcsoft_picauto.so \
     vendor/nubia/nx609j/proprietary/lib/libdiag_system.so:system/lib/libdiag_system.so \
     vendor/nubia/nx609j/proprietary/lib/libdisplayconfig.so:system/lib/libdisplayconfig.so \
+    vendor/nubia/nx609j/proprietary/lib/libfmq.so:system/lib/libfmq.so \
     vendor/nubia/nx609j/proprietary/lib/libimscamera_jni.so:system/lib/libimscamera_jni.so \
     vendor/nubia/nx609j/proprietary/lib/libimsmedia_jni.so:system/lib/libimsmedia_jni.so \
     vendor/nubia/nx609j/proprietary/lib/liblocationservice_jni.so:system/lib/liblocationservice_jni.so \
-    vendor/nubia/nx609j/proprietary/lib/libmiracast.so:system/lib/libmiracast.so \
     vendor/nubia/nx609j/proprietary/lib/libmmcamera_faceproc.so:system/lib/libmmcamera_faceproc.so \
     vendor/nubia/nx609j/proprietary/lib/libmmcamera_faceproc2.so:system/lib/libmmcamera_faceproc2.so \
     vendor/nubia/nx609j/proprietary/lib/libmmcamera_nubiacustpro.so:system/lib/libmmcamera_nubiacustpro.so \
     vendor/nubia/nx609j/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
-    vendor/nubia/nx609j/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
     vendor/nubia/nx609j/proprietary/lib/libmmparser_lite.so:system/lib/libmmparser_lite.so \
     vendor/nubia/nx609j/proprietary/lib/libmmrtpdecoder.so:system/lib/libmmrtpdecoder.so \
     vendor/nubia/nx609j/proprietary/lib/libmmrtpencoder.so:system/lib/libmmrtpencoder.so \
@@ -135,36 +127,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx609j/proprietary/lib/libsdm-disp-apis.so:system/lib/libsdm-disp-apis.so \
     vendor/nubia/nx609j/proprietary/lib/libsensor1.so:system/lib/libsensor1.so \
     vendor/nubia/nx609j/proprietary/lib/libsensor_reg.so:system/lib/libsensor_reg.so \
-    vendor/nubia/nx609j/proprietary/lib/libstagefright_soft_qtiflacdec.so:system/lib/libstagefright_soft_qtiflacdec.so \
-    vendor/nubia/nx609j/proprietary/lib/libtrueportrait.so:system/lib/libtrueportrait.so \
-    vendor/nubia/nx609j/proprietary/lib/libtruescanner.so:system/lib/libtruescanner.so \
-    vendor/nubia/nx609j/proprietary/lib/libwfdavenhancements.so:system/lib/libwfdavenhancements.so \
-    vendor/nubia/nx609j/proprietary/lib/libwfdcodecv4l2.so:system/lib/libwfdcodecv4l2.so \
-    vendor/nubia/nx609j/proprietary/lib/libwfdcommonutils.so:system/lib/libwfdcommonutils.so \
-    vendor/nubia/nx609j/proprietary/lib/libwfdconfigutils.so:system/lib/libwfdconfigutils.so \
-    vendor/nubia/nx609j/proprietary/lib/libwfdmminterface.so:system/lib/libwfdmminterface.so \
-    vendor/nubia/nx609j/proprietary/lib/libwfdmmsink.so:system/lib/libwfdmmsink.so \
-    vendor/nubia/nx609j/proprietary/lib/libwfdmmsrc.so:system/lib/libwfdmmsrc.so \
-    vendor/nubia/nx609j/proprietary/lib/libwfdnative.so:system/lib/libwfdnative.so \
-    vendor/nubia/nx609j/proprietary/lib/libwfdrtsp.so:system/lib/libwfdrtsp.so \
-    vendor/nubia/nx609j/proprietary/lib/libwfdservice.so:system/lib/libwfdservice.so \
-    vendor/nubia/nx609j/proprietary/lib/libwfdsm.so:system/lib/libwfdsm.so \
-    vendor/nubia/nx609j/proprietary/lib/libwfduibcinterface.so:system/lib/libwfduibcinterface.so \
-    vendor/nubia/nx609j/proprietary/lib/libwfduibcsink.so:system/lib/libwfduibcsink.so \
-    vendor/nubia/nx609j/proprietary/lib/libwfduibcsinkinterface.so:system/lib/libwfduibcsinkinterface.so \
-    vendor/nubia/nx609j/proprietary/lib/libwfduibcsrc.so:system/lib/libwfduibcsrc.so \
-    vendor/nubia/nx609j/proprietary/lib/libwfduibcsrcinterface.so:system/lib/libwfduibcsrcinterface.so \
-    vendor/nubia/nx609j/proprietary/lib/rfsa/adsp/libapps_mem_heap.so:system/lib/rfsa/adsp/libapps_mem_heap.so \
-    vendor/nubia/nx609j/proprietary/lib/rfsa/adsp/libdspCV_skel.so:system/lib/rfsa/adsp/libdspCV_skel.so \
-    vendor/nubia/nx609j/proprietary/lib/rfsa/adsp/libfastcvadsp.so:system/lib/rfsa/adsp/libfastcvadsp.so \
-    vendor/nubia/nx609j/proprietary/lib/rfsa/adsp/libfastcvadsp_skel.so:system/lib/rfsa/adsp/libfastcvadsp_skel.so \
-    vendor/nubia/nx609j/proprietary/lib/rfsa/adsp/libhvxMathVIO.so:system/lib/rfsa/adsp/libhvxMathVIO.so \
-    vendor/nubia/nx609j/proprietary/lib/rfsa/adsp/libqvr_adsp_driver_skel.so:system/lib/rfsa/adsp/libqvr_adsp_driver_skel.so \
-    vendor/nubia/nx609j/proprietary/lib/rfsa/adsp/libscveBlobDescriptor_skel.so:system/lib/rfsa/adsp/libscveBlobDescriptor_skel.so \
-    vendor/nubia/nx609j/proprietary/lib/rfsa/adsp/libscveFaceLandmark_skel.so:system/lib/rfsa/adsp/libscveFaceLandmark_skel.so \
-    vendor/nubia/nx609j/proprietary/lib/rfsa/adsp/libscveT2T_skel.so:system/lib/rfsa/adsp/libscveT2T_skel.so \
     vendor/nubia/nx609j/proprietary/lib/rfsa/adsp/libsns_low_lat_stream_skel.so:system/lib/rfsa/adsp/libsns_low_lat_stream_skel.so \
-    vendor/nubia/nx609j/proprietary/lib/sensors.hal.tof.so:system/lib/sensors.hal.tof.so \
     vendor/nubia/nx609j/proprietary/lib/vendor.qti.esepowermanager@1.0.so:system/lib/vendor.qti.esepowermanager@1.0.so \
     vendor/nubia/nx609j/proprietary/lib/vendor.qti.gnss@1.0.so:system/lib/vendor.qti.gnss@1.0.so \
     vendor/nubia/nx609j/proprietary/lib/vendor.qti.hardware.camera.device@1.0.so:system/lib/vendor.qti.hardware.camera.device@1.0.so \
@@ -173,7 +136,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx609j/proprietary/lib/vendor.qti.hardware.fm@1.0.so:system/lib/vendor.qti.hardware.fm@1.0.so \
     vendor/nubia/nx609j/proprietary/lib/vendor.qti.hardware.iop@1.0.so:system/lib/vendor.qti.hardware.iop@1.0.so \
     vendor/nubia/nx609j/proprietary/lib/vendor.qti.hardware.iop@2.0.so:system/lib/vendor.qti.hardware.iop@2.0.so \
-    vendor/nubia/nx609j/proprietary/lib/vendor.qti.hardware.limits@1.0.so:system/lib/vendor.qti.hardware.limits@1.0.so \
     vendor/nubia/nx609j/proprietary/lib/vendor.qti.hardware.perf@1.0.so:system/lib/vendor.qti.hardware.perf@1.0.so \
     vendor/nubia/nx609j/proprietary/lib/vendor.qti.hardware.qdutils_disp@1.0.so:system/lib/vendor.qti.hardware.qdutils_disp@1.0.so \
     vendor/nubia/nx609j/proprietary/lib/vendor.qti.hardware.qteeconnector@1.0.so:system/lib/vendor.qti.hardware.qteeconnector@1.0.so \
@@ -185,9 +147,10 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx609j/proprietary/lib64/com.qualcomm.qti.bluetooth_audio@1.0.so:system/lib64/com.qualcomm.qti.bluetooth_audio@1.0.so \
     vendor/nubia/nx609j/proprietary/lib64/com.qualcomm.qti.dpm.api@1.0.so:system/lib64/com.qualcomm.qti.dpm.api@1.0.so \
     vendor/nubia/nx609j/proprietary/lib64/com.qualcomm.qti.imscmservice@1.0.so:system/lib64/com.qualcomm.qti.imscmservice@1.0.so \
-    vendor/nubia/nx609j/proprietary/lib64/com.qualcomm.qti.imscmservice@1.1.so:system/lib64/com.qualcomm.qti.imscmservice@1.1.so \
+    vendor/nubia/nx609j/proprietary/lib64/com.qualcomm.qti.imscmservice@2.0.so:system/lib64/com.qualcomm.qti.imscmservice@2.0.so \
+    vendor/nubia/nx609j/proprietary/lib64/com.qualcomm.qti.imscmservice@2.1.so:system/lib64/com.qualcomm.qti.imscmservice@2.1.so \
+    vendor/nubia/nx609j/proprietary/lib64/com.qualcomm.qti.uceservice@2.0.so:system/lib64/com.qualcomm.qti.uceservice@2.0.so \
     vendor/nubia/nx609j/proprietary/lib64/com.qualcomm.qti.wifidisplayhal@1.0.so:system/lib64/com.qualcomm.qti.wifidisplayhal@1.0.so \
-    vendor/nubia/nx609j/proprietary/lib64/hw/sensors.msm8998.so:system/lib64/hw/sensors.msm8998.so \
     vendor/nubia/nx609j/proprietary/lib64/lib-imscamera.so:system/lib64/lib-imscamera.so \
     vendor/nubia/nx609j/proprietary/lib64/lib-imsvideocodec.so:system/lib64/lib-imsvideocodec.so \
     vendor/nubia/nx609j/proprietary/lib64/lib-imsvt.so:system/lib64/lib-imsvt.so \
@@ -202,16 +165,17 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx609j/proprietary/lib64/libarcsoft_beautyshot_video_algorithm.so:system/lib64/libarcsoft_beautyshot_video_algorithm.so \
     vendor/nubia/nx609j/proprietary/lib64/libarcsoft_low_light_shot.so:system/lib64/libarcsoft_low_light_shot.so \
     vendor/nubia/nx609j/proprietary/lib64/libarcsoft_night_shot.so:system/lib64/libarcsoft_night_shot.so \
+    vendor/nubia/nx609j/proprietary/lib64/libbluetooth_qti.so:system/lib64/libbluetooth_qti.so \
     vendor/nubia/nx609j/proprietary/lib64/libdiag_system.so:system/lib64/libdiag_system.so \
     vendor/nubia/nx609j/proprietary/lib64/libdisplayconfig.so:system/lib64/libdisplayconfig.so \
+    vendor/nubia/nx609j/proprietary/lib64/libdrm.so:system/lib64/libdrm.so \
+    vendor/nubia/nx609j/proprietary/lib64/libfmq.so:system/lib64/libfmq.so \
     vendor/nubia/nx609j/proprietary/lib64/libimscamera_jni.so:system/lib64/libimscamera_jni.so \
     vendor/nubia/nx609j/proprietary/lib64/libimsmedia_jni.so:system/lib64/libimsmedia_jni.so \
     vendor/nubia/nx609j/proprietary/lib64/liblocationservice_jni.so:system/lib64/liblocationservice_jni.so \
-    vendor/nubia/nx609j/proprietary/lib64/libmiracast.so:system/lib64/libmiracast.so \
     vendor/nubia/nx609j/proprietary/lib64/libmmcamera_faceproc.so:system/lib64/libmmcamera_faceproc.so \
     vendor/nubia/nx609j/proprietary/lib64/libmmcamera_faceproc2.so:system/lib64/libmmcamera_faceproc2.so \
     vendor/nubia/nx609j/proprietary/lib64/libmmosal.so:system/lib64/libmmosal.so \
-    vendor/nubia/nx609j/proprietary/lib64/libmmparser.so:system/lib64/libmmparser.so \
     vendor/nubia/nx609j/proprietary/lib64/libmmparser_lite.so:system/lib64/libmmparser_lite.so \
     vendor/nubia/nx609j/proprietary/lib64/libmmrtpdecoder.so:system/lib64/libmmrtpdecoder.so \
     vendor/nubia/nx609j/proprietary/lib64/libmmrtpencoder.so:system/lib64/libmmrtpencoder.so \
@@ -230,43 +194,50 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx609j/proprietary/lib64/libsdm-disp-apis.so:system/lib64/libsdm-disp-apis.so \
     vendor/nubia/nx609j/proprietary/lib64/libsensor1.so:system/lib64/libsensor1.so \
     vendor/nubia/nx609j/proprietary/lib64/libsensor_reg.so:system/lib64/libsensor_reg.so \
-    vendor/nubia/nx609j/proprietary/lib64/libstagefright_soft_qtiflacdec.so:system/lib64/libstagefright_soft_qtiflacdec.so \
-    vendor/nubia/nx609j/proprietary/lib64/libtrueportrait.so:system/lib64/libtrueportrait.so \
-    vendor/nubia/nx609j/proprietary/lib64/libtruescanner.so:system/lib64/libtruescanner.so \
-    vendor/nubia/nx609j/proprietary/lib64/libwfdavenhancements.so:system/lib64/libwfdavenhancements.so \
-    vendor/nubia/nx609j/proprietary/lib64/libwfdcodecv4l2.so:system/lib64/libwfdcodecv4l2.so \
-    vendor/nubia/nx609j/proprietary/lib64/libwfdcommonutils.so:system/lib64/libwfdcommonutils.so \
-    vendor/nubia/nx609j/proprietary/lib64/libwfdconfigutils.so:system/lib64/libwfdconfigutils.so \
-    vendor/nubia/nx609j/proprietary/lib64/libwfdmminterface.so:system/lib64/libwfdmminterface.so \
-    vendor/nubia/nx609j/proprietary/lib64/libwfdmmsink.so:system/lib64/libwfdmmsink.so \
-    vendor/nubia/nx609j/proprietary/lib64/libwfdmmsrc.so:system/lib64/libwfdmmsrc.so \
-    vendor/nubia/nx609j/proprietary/lib64/libwfdnative.so:system/lib64/libwfdnative.so \
-    vendor/nubia/nx609j/proprietary/lib64/libwfdrtsp.so:system/lib64/libwfdrtsp.so \
-    vendor/nubia/nx609j/proprietary/lib64/libwfds.so:system/lib64/libwfds.so \
-    vendor/nubia/nx609j/proprietary/lib64/libwfdservice.so:system/lib64/libwfdservice.so \
-    vendor/nubia/nx609j/proprietary/lib64/libwfdsm.so:system/lib64/libwfdsm.so \
-    vendor/nubia/nx609j/proprietary/lib64/libwfduibcinterface.so:system/lib64/libwfduibcinterface.so \
-    vendor/nubia/nx609j/proprietary/lib64/libwfduibcsink.so:system/lib64/libwfduibcsink.so \
-    vendor/nubia/nx609j/proprietary/lib64/libwfduibcsinkinterface.so:system/lib64/libwfduibcsinkinterface.so \
-    vendor/nubia/nx609j/proprietary/lib64/libwfduibcsrc.so:system/lib64/libwfduibcsrc.so \
-    vendor/nubia/nx609j/proprietary/lib64/libwfduibcsrcinterface.so:system/lib64/libwfduibcsrcinterface.so \
-    vendor/nubia/nx609j/proprietary/lib64/sensors.hal.tof.so:system/lib64/sensors.hal.tof.so \
+    vendor/nubia/nx609j/proprietary/lib64/vendor.display.color@1.0.so:system/lib64/vendor.display.color@1.0.so \
+    vendor/nubia/nx609j/proprietary/lib64/vendor.display.color@1.1.so:system/lib64/vendor.display.color@1.1.so \
+    vendor/nubia/nx609j/proprietary/lib64/vendor.display.color@1.2.so:system/lib64/vendor.display.color@1.2.so \
+    vendor/nubia/nx609j/proprietary/lib64/vendor.display.postproc@1.0.so:system/lib64/vendor.display.postproc@1.0.so \
+    vendor/nubia/nx609j/proprietary/lib64/vendor.nubia.ifaa@1.0.so:system/lib64/vendor.nubia.ifaa@1.0.so \
     vendor/nubia/nx609j/proprietary/lib64/vendor.qti.esepowermanager@1.0.so:system/lib64/vendor.qti.esepowermanager@1.0.so \
     vendor/nubia/nx609j/proprietary/lib64/vendor.qti.gnss@1.0.so:system/lib64/vendor.qti.gnss@1.0.so \
+    vendor/nubia/nx609j/proprietary/lib64/vendor.qti.hardware.alarm@1.0.so:system/lib64/vendor.qti.hardware.alarm@1.0.so \
     vendor/nubia/nx609j/proprietary/lib64/vendor.qti.hardware.camera.device@1.0.so:system/lib64/vendor.qti.hardware.camera.device@1.0.so \
+    vendor/nubia/nx609j/proprietary/lib64/vendor.qti.hardware.data.dynamicdds@1.0.so:system/lib64/vendor.qti.hardware.data.dynamicdds@1.0.so \
     vendor/nubia/nx609j/proprietary/lib64/vendor.qti.hardware.data.latency@1.0.so:system/lib64/vendor.qti.hardware.data.latency@1.0.so \
     vendor/nubia/nx609j/proprietary/lib64/vendor.qti.hardware.factory@1.0.so:system/lib64/vendor.qti.hardware.factory@1.0.so \
     vendor/nubia/nx609j/proprietary/lib64/vendor.qti.hardware.fm@1.0.so:system/lib64/vendor.qti.hardware.fm@1.0.so \
     vendor/nubia/nx609j/proprietary/lib64/vendor.qti.hardware.iop@1.0.so:system/lib64/vendor.qti.hardware.iop@1.0.so \
     vendor/nubia/nx609j/proprietary/lib64/vendor.qti.hardware.iop@2.0.so:system/lib64/vendor.qti.hardware.iop@2.0.so \
-    vendor/nubia/nx609j/proprietary/lib64/vendor.qti.hardware.limits@1.0.so:system/lib64/vendor.qti.hardware.limits@1.0.so \
     vendor/nubia/nx609j/proprietary/lib64/vendor.qti.hardware.perf@1.0.so:system/lib64/vendor.qti.hardware.perf@1.0.so \
     vendor/nubia/nx609j/proprietary/lib64/vendor.qti.hardware.qdutils_disp@1.0.so:system/lib64/vendor.qti.hardware.qdutils_disp@1.0.so \
     vendor/nubia/nx609j/proprietary/lib64/vendor.qti.hardware.qteeconnector@1.0.so:system/lib64/vendor.qti.hardware.qteeconnector@1.0.so \
+    vendor/nubia/nx609j/proprietary/lib64/vendor.qti.hardware.radio.am@1.0.so:system/lib64/vendor.qti.hardware.radio.am@1.0.so \
+    vendor/nubia/nx609j/proprietary/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0.so:system/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0.so \
+    vendor/nubia/nx609j/proprietary/lib64/vendor.qti.hardware.radio.ims@1.0.so:system/lib64/vendor.qti.hardware.radio.ims@1.0.so \
+    vendor/nubia/nx609j/proprietary/lib64/vendor.qti.hardware.radio.ims@1.1.so:system/lib64/vendor.qti.hardware.radio.ims@1.1.so \
+    vendor/nubia/nx609j/proprietary/lib64/vendor.qti.hardware.radio.ims@1.2.so:system/lib64/vendor.qti.hardware.radio.ims@1.2.so \
+    vendor/nubia/nx609j/proprietary/lib64/vendor.qti.hardware.radio.ims@1.3.so:system/lib64/vendor.qti.hardware.radio.ims@1.3.so \
+    vendor/nubia/nx609j/proprietary/lib64/vendor.qti.hardware.radio.ims@1.4.so:system/lib64/vendor.qti.hardware.radio.ims@1.4.so \
+    vendor/nubia/nx609j/proprietary/lib64/vendor.qti.hardware.radio.lpa@1.0.so:system/lib64/vendor.qti.hardware.radio.lpa@1.0.so \
+    vendor/nubia/nx609j/proprietary/lib64/vendor.qti.hardware.radio.qcrilhook@1.0.so:system/lib64/vendor.qti.hardware.radio.qcrilhook@1.0.so \
+    vendor/nubia/nx609j/proprietary/lib64/vendor.qti.hardware.radio.qtiradio@1.0.so:system/lib64/vendor.qti.hardware.radio.qtiradio@1.0.so \
+    vendor/nubia/nx609j/proprietary/lib64/vendor.qti.hardware.radio.qtiradio@2.0.so:system/lib64/vendor.qti.hardware.radio.qtiradio@2.0.so \
+    vendor/nubia/nx609j/proprietary/lib64/vendor.qti.hardware.radio.uim@1.0.so:system/lib64/vendor.qti.hardware.radio.uim@1.0.so \
+    vendor/nubia/nx609j/proprietary/lib64/vendor.qti.hardware.radio.uim@1.1.so:system/lib64/vendor.qti.hardware.radio.uim@1.1.so \
+    vendor/nubia/nx609j/proprietary/lib64/vendor.qti.hardware.radio.uim_remote_client@1.0.so:system/lib64/vendor.qti.hardware.radio.uim_remote_client@1.0.so \
+    vendor/nubia/nx609j/proprietary/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0.so:system/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0.so \
+    vendor/nubia/nx609j/proprietary/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so:system/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so \
+    vendor/nubia/nx609j/proprietary/lib64/vendor.qti.hardware.soter@1.0.so:system/lib64/vendor.qti.hardware.soter@1.0.so \
     vendor/nubia/nx609j/proprietary/lib64/vendor.qti.hardware.tui_comm@1.0.so:system/lib64/vendor.qti.hardware.tui_comm@1.0.so \
     vendor/nubia/nx609j/proprietary/lib64/vendor.qti.hardware.vpp@1.1.so:system/lib64/vendor.qti.hardware.vpp@1.1.so \
+    vendor/nubia/nx609j/proprietary/lib64/vendor.qti.hardware.wifi.keystore@1.0.so:system/lib64/vendor.qti.hardware.wifi.keystore@1.0.so \
+    vendor/nubia/nx609j/proprietary/lib64/vendor.qti.hardware.wifi.supplicant@2.0.so:system/lib64/vendor.qti.hardware.wifi.supplicant@2.0.so \
     vendor/nubia/nx609j/proprietary/lib64/vendor.qti.hardware.wigig.netperftuner@1.0.so:system/lib64/vendor.qti.hardware.wigig.netperftuner@1.0.so \
-    vendor/nubia/nx609j/proprietary/lib64/vendor.qti.imsrtpservice@1.0.so:system/lib64/vendor.qti.imsrtpservice@1.0.so
+    vendor/nubia/nx609j/proprietary/lib64/vendor.qti.ims.callinfo@1.0.so:system/lib64/vendor.qti.ims.callinfo@1.0.so \
+    vendor/nubia/nx609j/proprietary/lib64/vendor.qti.ims.rcsconfig@1.0.so:system/lib64/vendor.qti.ims.rcsconfig@1.0.so \
+    vendor/nubia/nx609j/proprietary/lib64/vendor.qti.imsrtpservice@1.0.so:system/lib64/vendor.qti.imsrtpservice@1.0.so \
+    vendor/nubia/nx609j/proprietary/lib64/vendor.qti.latency@2.0.so:system/lib64/vendor.qti.latency@2.0.so
 
 PRODUCT_PACKAGES += \
     com.qti.location.sdk \
@@ -279,20 +250,17 @@ PRODUCT_PACKAGES += \
     AntHalService \
     QtiSystemService \
     QtiTelephonyService \
-    WfdService \
     embms \
-    ims \
-    imssettings \
     CNEService \
-    com.qualcomm.location \
+    WfdService \
     dpmserviceapp \
+    ims \
     qcrilmsgtunnel \
     QtiTelephonyServicelibrary \
     WfdCommon \
     com.qti.dpmframework \
     qcnvitems \
-    qcrilhook \
-    qti-telephony-common
+    qcrilhook
 endif
 
 -include vendor/extra/devices.mk

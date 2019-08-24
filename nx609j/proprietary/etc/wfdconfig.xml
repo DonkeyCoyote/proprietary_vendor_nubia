@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
     <!--
-        Copyright (C) 2012 - 2017 Qualcomm Technologies, Inc.
+        Copyright (C) 2012 - 2018 Qualcomm Technologies, Inc.
         All Rights Reserved.
         Confidential and Proprietary - Qualcomm Technologies, Inc.
     -->
@@ -20,7 +20,7 @@
         <AudioAAC>
             <Name>AAC</Name>
             <Valid>1</Valid>
-            <Channels>2</Channels>            <!-- modifyed by ztemt frome 6 to 2 -->
+            <Channels>2</Channels>            <!-- modifyed by nubia frome 6 to 2 -->
             <SamplingFreq>48000</SamplingFreq>
             <Latency>0</Latency>
         </AudioAAC>
@@ -121,7 +121,6 @@
                 Resolution is 720P
             -->
             <MaxOverlay>5</MaxOverlay>
-            <BlendMode>0</BlendMode>
             <HRes>1280</HRes>
             <VRes>720</VRes>
             <Mode>CEA</Mode>
@@ -153,7 +152,7 @@
             <FrameInterval>0</FrameInterval>
         </FrameSkipping>
 
-        <!-- NUBIA disable HDCP by default -->
+        <!--  disable HDCP by default -->
         <ContentProtection>
             <Valid>0</Valid>
             <!--
@@ -173,8 +172,8 @@
         -->
         <RTPDumpEnable>
             <!-- DEPRECATED -->
-            <!-- For enabling RTP encoder dumping
-                 persist.sys.enable_RTPDumps to  1
+            <!-- For enabling RTP encoder dumping set
+                 persist.vendor.debug.rtp.enable_dump to 1
                  /data/media/dump.ts
             -->
         </RTPDumpEnable>
@@ -183,12 +182,12 @@
             UIBC settings
         -->
         <UIBC>
-            <UIBCValid>1</UIBCValid>                <!-- 0/1 UIBC supported or not modify by ztemt to enable uibc -->
+            <UIBCValid>1</UIBCValid>                <!-- UIBC by default enabled -->
             <M4Enable>0</M4Enable>                  <!-- 0/1 send UIBC enable in M4 or not -->
             <M14Support>0</M14Support>              <!-- 0/1 M14 supported or not -->
             <InputCategory>
                 <Generic>1</Generic>                <!-- 0/1 - support generic or not -->
-                <HID>0</HID>                        <!-- 0/1 - NUBIA MODIFY to 0: support HID or not -->
+                <HID>0</HID>                        <!-- 0/1 - support HID or not -->
             </InputCategory>
 
             <!--  Supported input events  -->
@@ -699,7 +698,7 @@
         To disable/enable audio stream playback
         support during power suspend - 0 or 1
     -->
-    <AudioStreamInSuspend>0</AudioStreamInSuspend>                <!-- modify by ztemt to disable AudioStreamInSuspend -->
+    <AudioStreamInSuspend>0</AudioStreamInSuspend>
 
     <!--
         Compensation delay for audio
@@ -745,6 +744,6 @@
     <StreamingSupport>1</StreamingSupport>
 
     <!-- Enfore HDCP for Direct Streaming -->
-    <DSRequiresHDCP>0</DSRequiresHDCP>                <!-- modify by ztemt to disable DSRequiresHDCP -->
+    <DSRequiresHDCP>0</DSRequiresHDCP>                <!-- modify by nubia to disable DSRequiresHDCP -->
 
 </WFDConfig>
