@@ -165,7 +165,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx609j/proprietary/lib64/libarcsoft_beautyshot_video_algorithm.so:system/lib64/libarcsoft_beautyshot_video_algorithm.so \
     vendor/nubia/nx609j/proprietary/lib64/libarcsoft_low_light_shot.so:system/lib64/libarcsoft_low_light_shot.so \
     vendor/nubia/nx609j/proprietary/lib64/libarcsoft_night_shot.so:system/lib64/libarcsoft_night_shot.so \
-    vendor/nubia/nx609j/proprietary/lib64/libbluetooth_qti.so:system/lib64/libbluetooth_qti.so \
     vendor/nubia/nx609j/proprietary/lib64/libdiag_system.so:system/lib64/libdiag_system.so \
     vendor/nubia/nx609j/proprietary/lib64/libdisplayconfig.so:system/lib64/libdisplayconfig.so \
     vendor/nubia/nx609j/proprietary/lib64/libdrm.so:system/lib64/libdrm.so \
@@ -242,7 +241,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     com.qti.location.sdk \
     com.qti.snapdragon.sdk.display \
-    vendor.qti.hardware.fingerprint-V1.0-java
+    com.qualcomm.qti.camera
 
 ifeq ($(QCPATH),)
 
@@ -253,14 +252,47 @@ PRODUCT_PACKAGES += \
     embms \
     CNEService \
     WfdService \
+    com.qualcomm.location \
     dpmserviceapp \
     ims \
     qcrilmsgtunnel \
     QtiTelephonyServicelibrary \
     WfdCommon \
     com.qti.dpmframework \
+    com.qualcomm.qti.imscmservice-V2.1-java \
+    com.qualcomm.qti.uceservice-V2.0-java \
+    com.quicinc.cne.api-V1.0-java \
+    com.quicinc.cne.api-V1.1-java \
+    com.quicinc.cne.constants-V1.0-java \
+    com.quicinc.cne.constants-V2.0-java \
+    com.quicinc.cne.constants-V2.1-java \
+    com.quicinc.cne \
+    com.quicinc.cne.server-V1.0-java \
+    com.quicinc.cne.server-V2.0-java \
+    com.quicinc.cne.server-V2.1-java \
+    com.quicinc.cne.server-V2.2-java \
+    gesture \
+    ifaa_fingerprint \
+    nubiatel-common \
     qcnvitems \
-    qcrilhook
+    qcrilhook \
+    qti-telephony-common \
+    qtiNetworkLib \
+    vendor.nubia.ifaa-V1.0-java \
+    vendor.qti.data.factory-V1.0-java \
+    vendor.qti.hardware.alarm-V1.0-java \
+    vendor.qti.hardware.data.dynamicdds-V1.0-java \
+    vendor.qti.hardware.data.latency-V1.0-java \
+    vendor.qti.hardware.factory-V1.0-java \
+    vendor.qti.hardware.fingerprint-V1.0-java \
+    vendor.qti.hardware.sensorscalibrate-V1.0-java \
+    vendor.qti.hardware.soter-V1.0-java \
+    vendor.qti.hardware.wigig.netperftuner-V1.0-java \
+    vendor.qti.hardware.wigig.supptunnel-V1.0-java \
+    vendor.qti.ims.callinfo-V1.0-java \
+    vendor.qti.ims.rcsconfig-V1.0-java \
+    vendor.qti.latency-V2.0-java \
+    vendor.qti.voiceprint-V1.0-java
 endif
 
 -include vendor/extra/devices.mk
